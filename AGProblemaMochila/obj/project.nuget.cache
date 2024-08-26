@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "L04q0hII0Lo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\manoe\\source\\repos\\AGProblemaMochila\\AGProblemaMochila\\AGProblemaMochila.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\manoe\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

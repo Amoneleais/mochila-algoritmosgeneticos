@@ -1,0 +1,17 @@
+C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\bin\Debug\net8.0\AGProblemaMochila.deps.json
+C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\bin\Debug\net8.0\AGProblemaMochila.dll
+C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\bin\Debug\net8.0\AGProblemaMochila.pdb
+C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\obj\Debug\net8.0\AGProblemaMochila.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\obj\Debug\net8.0\AGProblemaMochila.AssemblyInfoInputs.cache
+C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\obj\Debug\net8.0\AGProblemaMochila.AssemblyInfo.cs
+C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\obj\Debug\net8.0\AGProblemaMochila.csproj.CoreCompileInputs.cache
+C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\obj\Debug\net8.0\AGProblemaMochila.dll
+C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\obj\Debug\net8.0\refint\AGProblemaMochila.dll
+C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\obj\Debug\net8.0\AGProblemaMochila.pdb
+C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\obj\Debug\net8.0\ref\AGProblemaMochila.dll
+C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\bin\Debug\net8.0\AGProblemaMochila.exe
+C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\bin\Debug\net8.0\AGProblemaMochila.runtimeconfig.json
+C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\obj\Debug\net8.0\AGProblemaMochila.genruntimeconfig.cache
+C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\bin\Debug\net8.0\MathNet.Numerics.dll
+C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\obj\Debug\net8.0\AGProblemaMochila.csproj.AssemblyReference.cache
+C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\obj\Debug\net8.0\AGProble.7F0FF1AB.Up2Date
