@@ -52,11 +52,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\manoe\\source\\repos\\AGProblemaMochila\\AGProblemaMochila\\AGProblemaMochila.csproj",
+      "projectUniqueName": "C:\\Users\\manoe\\Documents\\GitHub\\mochila-algoritmosgeneticos\\AGProblemaMochila\\AGProblemaMochila.csproj",
       "projectName": "AGProblemaMochila",
-      "projectPath": "C:\\Users\\manoe\\source\\repos\\AGProblemaMochila\\AGProblemaMochila\\AGProblemaMochila.csproj",
+      "projectPath": "C:\\Users\\manoe\\Documents\\GitHub\\mochila-algoritmosgeneticos\\AGProblemaMochila\\AGProblemaMochila.csproj",
       "packagesPath": "C:\\Users\\manoe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\manoe\\source\\repos\\AGProblemaMochila\\AGProblemaMochila\\obj\\",
+      "outputPath": "C:\\Users\\manoe\\Documents\\GitHub\\mochila-algoritmosgeneticos\\AGProblemaMochila\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\manoe\\AppData\\Roaming\\NuGet\\NuGet.Config",

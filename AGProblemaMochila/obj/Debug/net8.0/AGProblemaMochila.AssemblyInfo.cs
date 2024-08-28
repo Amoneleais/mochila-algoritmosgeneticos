@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AGProblemaMochila")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efcf9039567e6dbecdde196cc4a2e663806c9c81")]
 [assembly: System.Reflection.AssemblyProductAttribute("AGProblemaMochila")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AGProblemaMochila")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

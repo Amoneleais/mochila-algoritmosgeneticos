@@ -20,23 +20,99 @@
 
             Mochila mochila = new Mochila(itens, capacidadeMochila);
 
+            int execucoes = 30;
+
+            //Roleta
             AlgoritmoGenetico.Executar(
                 mochila,
                 Selecao.Roleta,
                 CruzamentoUniforme.Cruzar,
                 0.01,
                 elitismo: false,
-                caminhoCSV: @"C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\resultado_roleta_uniforme.csv"
+                caminhoCSV: @"C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\resultado_roleta.csv",
+                numeroExecucoes: execucoes
             );
 
+            //Torneio
+            AlgoritmoGenetico.Executar(
+                mochila,
+                Selecao.Torneio,
+                CruzamentoUniforme.Cruzar,
+                0.01,
+                elitismo: false,
+                caminhoCSV: @"C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\resultado_torneio.csv",
+                numeroExecucoes: execucoes
+            );
+
+            //Uniforme
+            AlgoritmoGenetico.Executar(
+                mochila,
+                Selecao.Torneio,
+                CruzamentoUniforme.Cruzar,
+                0.01,
+                elitismo: true,
+                caminhoCSV: @"C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\resultado_uniforme.csv",
+                numeroExecucoes: execucoes
+            );
+
+            //Dois Pontos
             AlgoritmoGenetico.Executar(
                 mochila,
                 Selecao.Torneio,
                 CruzamentoDoisPontos.Cruzar,
-                0.05,
+                0.01,
                 elitismo: true,
-                caminhoCSV: @"C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\resultado_torneio_doispontos.csv"
+                caminhoCSV: @"C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\resultado_doispontos.csv",
+                numeroExecucoes: execucoes
             );
-        }    
+
+            //Mutação 1%
+            AlgoritmoGenetico.Executar(
+                mochila,
+                Selecao.Torneio,
+                CruzamentoUniforme.Cruzar,
+                0.01,
+                elitismo: false,
+                caminhoCSV: @"C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\resultado_mutacao01.csv",
+                numeroExecucoes: execucoes
+            );
+
+            //Mutação 5%
+            AlgoritmoGenetico.Executar(
+                mochila,
+                Selecao.Torneio,
+                CruzamentoUniforme.Cruzar,
+                0.05,
+                elitismo: false,
+                caminhoCSV: @"C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\resultado_mutacao05.csv",
+                numeroExecucoes: execucoes
+            );
+
+            //Elitismo
+            AlgoritmoGenetico.Executar(
+                mochila,
+                Selecao.Torneio,
+                CruzamentoUniforme.Cruzar,
+                0.01,
+                elitismo: true,
+                caminhoCSV: @"C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\resultado_elitismo.csv",
+                numeroExecucoes: execucoes
+            );
+
+            //Somente Filhos
+            AlgoritmoGenetico.Executar(
+                mochila,
+                Selecao.Torneio,
+                CruzamentoUniforme.Cruzar,
+                0.01,
+                elitismo: false,
+                caminhoCSV: @"C:\Users\manoe\source\repos\AGProblemaMochila\AGProblemaMochila\resultado_somente_filhos.csv",
+                numeroExecucoes: execucoes
+            );
+
+            Console.WriteLine("Dados de Execução Gerados.:");
+
+            ComparadorEstatistico.ExecutarComparacoes();
+        }
     }
 }
